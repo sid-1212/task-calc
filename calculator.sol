@@ -13,7 +13,16 @@ contract task_Calculator{
     function _sub2nums (int x, int y) external pure returns(int z){
         z = x - y;
     }
-}
+
+    //function to multiply
+    function _mul2nums (int x, int y) external pure returns(int z){
+        z = x * y;
+    }
+
+    //function to divide
+    function _div2nums (int x, int y) external pure returns(int z){
+        z = x / y;
+    }
 }
 
     
